@@ -23,6 +23,7 @@ matrix:
       - JASMINE_BROWSER="firefox"
       - SAUCE_OS="Linux"
       - SAUCE_BROWSER_VERSION=''
+    - env:
       - USE_SAUCE=true
       - TEST_COMMAND="bash travis-core-script.sh"
       - JASMINE_BROWSER="internet explorer"
